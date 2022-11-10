@@ -26,7 +26,7 @@ int main() {
 	cout << "sabe el nombre de el material a usar?( si o no)" << endl;
 	cin >> resp;
 	if ((resp=="si")) {
-		cout << " por favor ingrese el material del cable que desea" << endl;
+		cout << " por favor ingrese el material del cable que desea"<< endl;
 		do {
 			cout << "1-cobre" << endl;
 			cout << "2-plata" << endl;
@@ -39,7 +39,7 @@ int main() {
 			switch (eleccion) {
 			case 1:
 				c = 0.0179;
-				cout << " la resisitividad de el cobre por defecto es de : " << endl;
+				cout << " la resisitividad de el cobre por defecto es de : "<<c<<"ohm"<< endl;
 				cout << " ingrese la longitud del cable conductor que usara: " << endl;
 				cin >> l;
 				cout << " escribe el valor de la transversal del cable" << endl;
@@ -49,7 +49,7 @@ int main() {
 				break;
 			case 2:
 				plat = 0.0159;
-				cout << " la resisitividad de el plata por defecto es de : " << endl;
+				cout << " la resisitividad de el plata por defecto es de : "<<plat<<"ohm"<< endl;
 				cout << " ingrese la longitud del cable conductor que usara: " << endl;
 				cin >> l;
 				cout << " escribe el valor de la transversal del cable" << endl;
@@ -59,7 +59,7 @@ int main() {
 				break;
 			case 3:
 				oro = 0.0244;
-				cout << " la resisitividad de el oro por defecto es de : " << endl;
+				cout << " la resisitividad de el oro por defecto es de : " <<oro<<"ohm"<< endl;
 				cout << " ingrese la longitud del cable conductor que usara: " << endl;
 				cin >> l;
 				cout << " escribe el valor de la transversal del cable" << endl;
@@ -79,7 +79,7 @@ int main() {
 				break;
 			case 5:
 				cont = 0.017;
-				cout << " la resisitividad de el bronce por defecto es de : " << endl;
+				cout << " la resisitividad de el bronce por defecto es de : " <<cont<<"ohm"<< endl;
 				cout << " ingrese la longitud del cable conductor que usara: " << endl;
 				cin >> l;
 				cout << " escribe el valor de la transversal del cable" << endl;
@@ -89,7 +89,7 @@ int main() {
 				break;
 			case 6:
 				m = 0.30;
-				cout << " la resisitividad de el acero por defecto es de : " << endl;
+				cout << " la resisitividad de el acero por defecto es de : " <<m<<"ohm"<< endl;
 				cout << " ingrese la longitud del cable conductor que usara: " << endl;
 				cin >> l;
 				cout << " escribe el valor de la transversal del cable" << endl;
